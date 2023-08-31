@@ -1,15 +1,11 @@
 import {Link} from "react-router-dom";
+import MenuBar from "../Components/MenuBar";
 
 export default function Root() {
     return (
-    <div>
-        <h1 className="text-3xl font-bold flex items-center justify-center">
-            Absolutely nothing is here yet...
-        </h1>
-        <div className="text-3xl p-2 flex items-center justify-center">
-            I'll get around to it :)
+        <div>
+            <MenuBar></MenuBar>
+            <Link to={'/'}>Go back where ya' came from</Link>
         </div>
-        <Link to={'/'}>Go back where ya' came from</Link>
-    </div>
-  );
+    );
 }
