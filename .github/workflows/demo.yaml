@@ -20,5 +20,5 @@ jobs:
     runs-on: self-hosted
     steps:
       - run: |
-          mkdir FindMe
-          touch FindMe/leftoverfile.md
+          mkdir /FindMe
+          touch /FindMe/leftoverfile.md
